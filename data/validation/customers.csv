@@ -1,0 +1,9 @@
+customer_id,first_name,last_name,email,phone,date_of_birth,account_status,risk_rating
+CUST001,John,Doe,john.doe@email.com,+1-555-0123,1985-03-15,ACTIVE,LOW
+CUST002,Jane,Smith,jane.smith@email.com,+1-555-0124,1990-07-22,ACTIVE,MEDIUM
+CUST003,Bob,Johnson,invalid-email,+1-555-0125,2010-01-01,SUSPENDED,HIGH
+CUST004,Alice,Brown,alice.brown@email.com,,1975-11-30,ACTIVE,LOW
+CUST005,,Wilson,charlie.wilson@email.com,+1-555-0126,1988-05-20,ACTIVE,MEDIUM
+CUST006,Diana,Davis,diana.davis@email.com,+1-555-0127,1992-09-10,INACTIVE,LOW
+CUST007,Eve,Miller,eve@invalid,+1-555-0128,2005-12-25,ACTIVE,HIGH
+CUST008,Frank,Garcia,frank.garcia@email.com,555-0129,1980-04-18,ACTIVE,MEDIUM

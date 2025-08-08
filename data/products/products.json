@@ -1,0 +1,81 @@
+{
+  "products": [
+    {
+      "product_id": "PROD001",
+      "name": "Wireless Bluetooth Headphones",
+      "category": "Electronics",
+      "price": 29.99,
+      "cost": 15.00,
+      "supplier": "TechCorp",
+      "weight_kg": 0.25,
+      "dimensions": "20x15x8 cm",
+      "in_stock": true,
+      "stock_quantity": 150
+    },
+    {
+      "product_id": "PROD002",
+      "name": "Smart Fitness Watch",
+      "category": "Electronics",
+      "price": 149.99,
+      "cost": 75.00,
+      "supplier": "FitTech",
+      "weight_kg": 0.05,
+      "dimensions": "4x4x1 cm",
+      "in_stock": true,
+      "stock_quantity": 85
+    },
+    {
+      "product_id": "PROD003",
+      "name": "Portable Power Bank",
+      "category": "Electronics",
+      "price": 79.99,
+      "cost": 35.00,
+      "supplier": "PowerPlus",
+      "weight_kg": 0.4,
+      "dimensions": "15x8x2 cm",
+      "in_stock": true,
+      "stock_quantity": 200
+    },
+    {
+      "product_id": "PROD004",
+      "name": "4K Webcam",
+      "category": "Electronics",
+      "price": 199.99,
+      "cost": 120.00,
+      "supplier": "VisionTech",
+      "weight_kg": 0.3,
+      "dimensions": "10x5x5 cm",
+      "in_stock": true,
+      "stock_quantity": 45
+    },
+    {
+      "product_id": "PROD005",
+      "name": "Wireless Mouse",
+      "category": "Electronics",
+      "price": 39.99,
+      "cost": 18.00,
+      "supplier": "TechCorp",
+      "weight_kg": 0.1,
+      "dimensions": "12x6x3 cm",
+      "in_stock": true,
+      "stock_quantity": 300
+    },
+    {
+      "product_id": "PROD006",
+      "name": "USB-C Hub",
+      "category": "Electronics",
+      "price": 89.99,
+      "cost": 45.00,
+      "supplier": "ConnectCorp",
+      "weight_kg": 0.2,
+      "dimensions": "10x3x1 cm",
+      "in_stock": false,
+      "stock_quantity": 0
+    }
+  ],
+  "metadata": {
+    "last_updated": "2024-01-15T08:00:00Z",
+    "version": "1.2",
+    "total_products": 6
+  }
+}
