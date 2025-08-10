@@ -158,10 +158,11 @@ def merge_regional_data(**context):
 
     # Pull data from all regional processing tasks
     regions = ['north_america', 'europe', 'asia_pacific', 'latin_america']
+    prefix = 'regional_processing.'
     regional_data = {}
 
     for region in regions:
-        task_id = f'process_{region}'
+        task_id = f'{prefix}process_{region}'
         data = context['task_instance'].xcom_pull(task_ids=task_id)
         regional_data[region] = data
         print(f"  - Retrieved {region} data: ${data['total_sales']:,}")

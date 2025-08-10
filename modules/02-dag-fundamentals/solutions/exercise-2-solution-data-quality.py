@@ -135,8 +135,9 @@ def validate_data_quality(data_type):
     """Factory function for data quality validation"""
     def _validate(**context):
         # Get collected data and validation rules
+        prefix = "data_collection."
         collection_data = context['task_instance'].xcom_pull(
-            task_ids=f'collect_{data_type}_data')
+            task_ids=f'{prefix}collect_{data_type}_data')
         validation_rules = context['task_instance'].xcom_pull(
             task_ids='prepare_validation_rules')
         quality_config = context['task_instance'].xcom_pull(
@@ -218,7 +219,8 @@ def assess_overall_quality(**context):
     validation_results = {}
 
     for data_type in data_types:
-        task_id = f'validate_{data_type}_quality'
+        prefix = "primary_validation."
+        task_id = f'{prefix}validate_{data_type}_quality'
         result = context['task_instance'].xcom_pull(task_ids=task_id)
         validation_results[data_type] = result
 
